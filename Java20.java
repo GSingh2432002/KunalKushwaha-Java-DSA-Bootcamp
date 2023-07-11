@@ -1,3 +1,4 @@
+//Alphabet Case Check
 import java.util.Scanner;
 class Java20
 {

@@ -1,3 +1,4 @@
+//Area of Triangle
 import java.util.Scanner;
 class Java10 {
     public static void main(String args[])
@@ -10,6 +11,5 @@ class Java10 {
         height= obj.nextDouble();
         Area = 0.5 * base * height;
         System.out.println("Area of Triangle:- " + Area);
-
     }
 }

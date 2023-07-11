@@ -1,3 +1,4 @@
+//Max Between two numbers
 import java.util.Scanner;
 class Java5
 {

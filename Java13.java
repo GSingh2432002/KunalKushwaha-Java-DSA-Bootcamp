@@ -1,9 +1,10 @@
+//Armstrong Number
 import java.util.Scanner;
 class Java13 
 {
     public static void main(String args[])
     {
-        int num=153, temp, armstrong=0;
+        int num=407, temp, armstrong=0;
         int original= num;
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter the number for check the is Armstrong number:- ");

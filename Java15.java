@@ -1,3 +1,4 @@
+//Average of marks
 import java.util.Scanner;
 class Java15
 {

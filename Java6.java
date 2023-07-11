@@ -1,3 +1,4 @@
+//Perimeter and Area of Square
 import java.util.Scanner;
 class Java6 {
     public static void main(String args[])

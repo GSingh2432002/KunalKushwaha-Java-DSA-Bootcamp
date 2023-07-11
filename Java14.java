@@ -1,3 +1,4 @@
+//Average of n Numbers and their sum
 import java.util.Scanner;
 class Java14
 {
