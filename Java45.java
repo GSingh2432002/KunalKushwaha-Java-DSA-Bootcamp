@@ -1,27 +1,26 @@
-//Prime Number
+//Perfect number
 import java.util.Scanner;
-class Java44
+class Java45
 {
     public static void main(String[] args) {
-        int n, count = 0;
+        int n, sum=0;
         System.out.println("Enter any number");
         Scanner obj = new Scanner(System.in);
         n = obj.nextInt();
-
-        for (int i = 1; i <= n; i++)
+        for (int i=1; i<n; i++)
         {
-            if (n%i == 0)
+            if (n%i ==0)
             {
-                count++;
+                sum = sum+i;
             }
         }
-        if (count == 2)
+        if (n==sum)
         {
-            System.out.println("Prime Number");
+            System.out.println("Perfect Number");
         }
         else
         {
-            System.out.println("Not Prime Number");
+            System.out.println("Not a Perfect Number");
         }
     }
 }
