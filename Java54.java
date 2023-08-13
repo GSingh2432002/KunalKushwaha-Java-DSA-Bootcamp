@@ -1,3 +1,4 @@
+//Binary Search Algorithm
 import java.util.Scanner;
 class Java54
 {
