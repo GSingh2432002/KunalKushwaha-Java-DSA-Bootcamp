@@ -1,3 +1,4 @@
+//Merge two sorted arrays without using Extra space.
 import java.util.*;
 import java.util.Arrays;
 class Java79
@@ -13,7 +14,7 @@ public static void main(String[] args) {
         for (int num : nums1) {
             System.out.print(num + " ");
         }
-    
+    }
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         int i = m - 1; // Pointer for nums1
         int j = n - 1; // Pointer for nums2
@@ -37,6 +38,5 @@ public static void main(String[] args) {
             k--;
         }
     }
-}
 }
 
