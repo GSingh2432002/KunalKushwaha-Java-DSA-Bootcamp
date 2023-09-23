@@ -1,4 +1,4 @@
-// /Rotate Image
+//Rotate Image
 class Java110
 {
     public static void main(String[] args) {
