@@ -12,7 +12,7 @@ class Java112
         // System.out.println("Input: " + input2);
         System.out.println("Output: " + removeDuplicateLetters(input2));
     }
-    public String removeDuplicateLetters(String s)
+    public static String removeDuplicateLetters(String s)
     {
         int[] count = new int[26];
         boolean[] visited = new boolean[26];
