@@ -8,29 +8,22 @@ class Java115
         System.out.println("The " + n + "th term of the count-and-say sequence is: " + result);
     }
     public static String countAndSay(int n) {
-        if (n <= 0) {
-            return "";
-        }
-        
-        String result = "1";
-        
-        for (int i = 1; i < n; i++) {
-            StringBuilder temp = new StringBuilder();
-            int count = 1;
-            
-            for (int j = 1; j < result.length(); j++) {
-                if (result.charAt(j) == result.charAt(j - 1)) {
-                    count++;
-                } else {
-                    temp.append(count);
-                    temp.append(result.charAt(j - 1));
-                    count = 1;
-                }
+        if(n == 1) return "1";
+
+        //Recursion
+        String s = countAndSay(n - 1);
+        StringBuilder res = new StringBuilder();
+        int counter = 0;
+
+        for(int i = 0; i < s.length(); i++)
+        {
+            counter++;
+            if(i == s.length() - 1 || s.charAt(i) != s.charAt(i + 1))
+            {
+                res.append(counter).append(s.charAt(i));
+                counter = 0;
             }
-            temp.append(count);
-            temp.append(result.charAt(result.length() - 1));
-            result = temp.toString();
-        }   
-        return result;
+        }
+        return res.toString();
     }
 }
