@@ -24,7 +24,7 @@ class Java135
         }
         return false;
     }
-    private boolean dfs(char[][] board, int i, int j, int count, String word)
+    private static boolean dfs(char[][] board, int i, int j, int count, String word)
     {
         if(count == word.length())
             return true;
