@@ -9,10 +9,10 @@ class Java135
             {'A', 'D', 'E', 'E'}
         };
         String word = "ABCCED";
-        boolean result = found(board,word);
-        System.out.println(result);
+        boolean result = exist(board, word);
+        System.out.println("Result: "+result);
     }
-    public boolean exist(char[][] board, String word)
+    public static boolean exist(char[][] board, String word)
     {
         for(int i = 0; i < board.length; i++)
         {
